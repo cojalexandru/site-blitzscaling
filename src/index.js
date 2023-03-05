@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import "./style.css";
+import Homepage from "./views/homepage";
+import Example from "./views/example";
+import CompaniesData from "./assets/companies.json";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <Route component={Homepage} exact path="/" />
+        {CompaniesData.companies.map((data, index) => (
+          <Route path={"/" + data.title} key={index}>
+            <Example company={data.title} img={data.img} />
+          </Route>
+        ))}
+      </div>
+    </Router>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById("app"));

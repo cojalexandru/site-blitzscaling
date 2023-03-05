@@ -1,0 +1,14 @@
+{
+  "companies": [
+    {
+      "title": "Amazon",
+      "img": "/assets/amazon.jpg",
+      "alt": "amazon"
+    },
+    {
+      "title": "Google",
+      "img": "/assets/stocks-rising-600h.jpg",
+      "alt": "google"
+    }
+  ]
+}
