@@ -1,46 +1,60 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import companiesData from "../assets/companies.json";
+import HamburgerMenu from "./HamburgerMenu";
+
+import { useMediaQuery } from "react-responsive";
 
 export const Header = () => {
   const logo = "/assets/blitzscaling-logo.svg";
-  const companies = companiesData;
+  const isMobile = useMediaQuery({ query: `(max-width: 1700px)` });
+
   return (
     <>
       <div className="header">
         <div className="nav">
           <div className="navbar">
-            <img alt="logo" src={logo} className="logo" />
-            <div className="nav-links">
-              <div className="nav-link">
-                <Link to="/" target="_parent" className="link">
-                  Acasa
-                </Link>
+            <Link to="/" target="_parent" className="link">
+              <img alt="logo" src={logo} className="logo" />
+            </Link>
+            <HamburgerMenu />
+            {!isMobile && (
+              <div className="nav-links">
+                <div className="nav-link">
+                  <Link to="/blitzscaling" target="_parent" className="link">
+                    Blitzscaling
+                  </Link>
+                </div>
+                <div className="nav-link">
+                  <Link
+                    to="/mediul_de_afaceri_din_romania"
+                    target="_parent"
+                    className="link"
+                  >
+                    Mediul de afaceri din Romania
+                  </Link>
+                </div>
+                <div className="nav-link">
+                  <Link to="/#exemple" target="_parent" className="link">
+                    Exemple de afaceri
+                  </Link>
+                </div>
+                <div className="nav-link">
+                  <Link to="/noutati" target="_parent" className="link">
+                    Noutati
+                  </Link>
+                </div>
               </div>
-              <div className="nav-link">
-                <Link to="/#exemple" target="_parent" className="link">
-                  Exemple
-                </Link>
-              </div>
-              <div className="nav-link">
-                <Link to="/despre" target="_parent" className="link">
-                  Despre
-                </Link>
-              </div>
-            </div>
+            )}
           </div>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="nav-buttons"
-          >
-            <img
-              alt="gamepad"
-              src="/assets/gamepad.svg"
-              className="game-button"
-            />
-          </a>
+          {!isMobile && (
+            <Link to="/joc" target="_parent" className="nav-buttons">
+              <img
+                alt="gamepad"
+                src="/assets/gamepad.svg"
+                className="game-button"
+              />
+            </Link>
+          )}
         </div>
       </div>
     </>

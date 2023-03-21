@@ -1,49 +1,20 @@
-import { Fragment } from "react";
 import CompaniesData from "../assets/companies.json";
-
-function Example({ title, img, alt }) {
-  return (
-    <div className="example">
-      <div className="example-image">
-        <img src={img} alt={alt} className="photo" />
-      </div>
-      <div className="example-info">
-        <div className="example-name">
-          <span>
-            <span>{title}</span>
-            <br />
-          </span>
-        </div>
-      </div>
-    </div>
-  );
-}
+import React from "react";
 
 export default function Examples() {
   return (
-    <Fragment>
-      <div className="examples-container" id="example">
-        <div className="examples-header">
-          <div className="headline-text">
-            <span>
-              Exista o multime de companii care s-au folosit de metoda
-              &quot;Blitzscaling&quot; pentru a avea succes
-            </span>
+    <div className="news-container" id="exemple">
+      <div className="news-grid">
+        {CompaniesData.companies.map((item) => (
+          <div className="news-item" key={item.title}>
+            <div className="news-image-container">
+              <img className="news-image" src={item.img} alt={item.title} />
+            </div>
+            <h3 className="news-heading">{item.title}</h3>
+            <h3 className="news-date">{item.info}</h3>
           </div>
-        </div>
-        <div className="section">
-          <div className="examples">
-            {CompaniesData.companies.slice(0, 3).map((data, index) => (
-              <Example key={index} {...data} />
-            ))}
-          </div>
-          <div className="examples">
-            {CompaniesData.companies.slice(3).map((data, index) => (
-              <Example key={index} {...data} />
-            ))}
-          </div>
-        </div>
+        ))}
       </div>
-    </Fragment>
+    </div>
   );
 }

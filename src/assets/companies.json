@@ -3,12 +3,38 @@
     {
       "title": "Amazon",
       "img": "/assets/amazon.jpg",
-      "alt": "amazon"
+      "alt": "amazon",
+      "info": "Jeff Bezos este fondatorul companiei Amazon.com (1994), care în 1995 a fost lansată și online. A început cu vanzarea online de cărți și a continuat cu produse VHS, DVD, CD-uri cu muzică, programe de calculator, electronice, îmbrăcăminte, mobilier, jucării etc.\nEste practic prima firma ce a inventat ecommerce și acum are peste 150,000 de angajați și o mulțime de vanzatori si parteneri.\n"
     },
     {
       "title": "Google",
-      "img": "/assets/stocks-rising-600h.jpg",
-      "alt": "google"
+      "img": "/assets/google.jfif",
+      "alt": "google",
+      "info": "A fost fondată în 1998 de către doi doctoranzi de la Universitatea Stanford, Larry Page și Sergey Mikhaylovich Brin.\nA revoluționat modul în care căutăm informații, are acum peste 60,000 de angajați.\n"
+    },
+    {
+      "title": "Facebook",
+      "img": "/assets/facebook.png",
+      "alt": "facebook",
+      "info": "În februarie 2004 Mark Zuckerberg a fondat rețeaua „The Facebook”, ce era la origine o rețea socială cu circuit închis pentru studenții acestei universități; ulterior ea s-a deschis tuturor persoanelor.\nMomentan este top 3 cel mai vizitat website din lume.\n"
+    },
+    {
+      "title": "LinkedIn",
+      "img": "/assets/linkedin.jpg",
+      "alt": "linkedin",
+      "info": "A fost fondată de Reid Hoffman, Allen Blue, Konstantin Guericke, Eric Ly si Jean Luc Vaillant, și a început să funcționeze în anul 2003.\nEste o rețea de socializare orientată spre mediul de afaceri, în care companiile pot cauta angajați, iar persoanele pot căuta locuri de munca.\n"
+    },
+    {
+      "title": "AirBnB",
+      "img": "/assets/airbnb.jpg",
+      "alt": "airbnb",
+      "info": "A fost fondată în 2008 de către Brian Chesky, Joe Gebbia și Nathan Blecharczyk.\nEste o platformă online prin care se pot închiria, oriunde în lume, camere, apartamente sau case întregi direct de la proprietar.\nCompania deține un serviciu de închirieri de 600.000 de listări în mai mult de 190 de țări.\nÎn august 2014, compania era evaluată la 10 miliarde de dolari.\n"
+    },
+    {
+      "title": "Uber",
+      "img": "/assets/uber.jfif",
+      "alt": "uber",
+      "info": "Uber a lansat aplicația pentru iPhone în anul 2010, fondat de Travis Kalanick și Garrett Camp, oferindu-le clienților posibilitatea de a închiria rapid limuzine cu șofer. Ulterior, pe fondul competiției cu jucători mai mici, compania le-a oferit clienților și posibilitatea de a comanda taxiuri sau mașină cu tarife mai mici decât limuzinele.\nAplicația permite pasagerilor să se conecteze direct prin GPS-ul telefonului mobil cu cea mai apropiată mașină cu șofer înregistrată în baza de date a Uber. Contractarea serviciului și plata se desfășoară exclusiv prin intermediul Uber și nu personal cu șoferul. La destinație, pasagerul nu achită fizic nimic. Tariful este calculat de program în funcție de distanță, viteză și condițiile de trafic\n"
     }
   ]
 }

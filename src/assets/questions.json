@@ -1,0 +1,146 @@
+{
+  "questions": [
+    {
+      "question": "Ce activitati desfasoara MAE?",
+      "options": [
+        "promovarea externa",
+        "protejare",
+        "angajare",
+        "desfiintare"
+      ],
+      "answer": "promovarea externa",
+      "explanation": "MAE desfăşoară următoarele activităţi:\nPromovarea externă, pentru a facilita intrarea pe diferite pieţe şi extinderea firmelor româneşti deja implantate în străinătate...",
+      "explanationLink": "/despre/#1"
+    },
+    {
+      "question": "Digitalizarea face diferenta intre:",
+      "options": [
+        "reușită și eșec",
+        "consumatori și producatori",
+        "cerere și oferta",
+        "venituri și cheltuieli"
+      ],
+      "answer": "reușită și eșec",
+      "explanation": "MAE desfăşoară următoarele activităţi:\nPromovarea externă, pentru a facilita intrarea pe diferite pieţe şi extinderea firmelor româneşti deja implantate în străinătate...",
+      "explanationLink": "/despre/#1"
+    },
+    {
+      "question": "Lipsa cash-flow-ului a fost provocată de:",
+      "options": [
+        "creșterea vânzărilor",
+        "plata anticipată a furnizorilore",
+        "imposibilitatea de a accesa surse de finanțare viabile pentru unele business-uri",
+        "creșterea incasărilor"
+      ],
+      "answer": "imposibilitatea de a accesa surse de finanțare viabile pentru unele business-uri",
+      "explanation": "MAE desfăşoară următoarele activităţi:\nPromovarea externă, pentru a facilita intrarea pe diferite pieţe şi extinderea firmelor româneşti deja implantate în străinătate...",
+      "explanationLink": "/despre/#1"
+    },
+    {
+      "question": "Principalele surse de finanțare sunt:",
+      "options": [
+        "autofinanțarea",
+        "fondurile nerambursabile",
+        "fondurile nerambursabile, microfinanțarea , factoringul",
+        "toate variantele enumerate"
+      ],
+      "answer": "toate variantele enumerate",
+      "explanation": "MAE desfăşoară următoarele activităţi:\nPromovarea externă, pentru a facilita intrarea pe diferite pieţe şi extinderea firmelor româneşti deja implantate în străinătate...",
+      "explanationLink": "/despre/#1"
+    },
+    {
+      "question": "În prezent, companiile se confruntă cu numeroase provocări în ceea ce privește:",
+      "options": [
+        "comportamentul variabil al consumatorilor; menținerea stabilă a cash-flow-ului.",
+        "Stabilitatea afacerii",
+        "mediul economic extern",
+        "fluctuatia cursurilor valutare."
+      ],
+      "answer": "comportamentul variabil al consumatorilor; menținerea stabilă a cash-flow-ului.",
+      "explanation": "MAE desfăşoară următoarele activităţi:\nPromovarea externă, pentru a facilita intrarea pe diferite pieţe şi extinderea firmelor româneşti deja implantate în străinătate...",
+      "explanationLink": "/despre/#1"
+    }
+  ],
+  "questions2": [
+    {
+      "question": "În prezent, firmele trebuie să se adapteze la un mediu de afaceri mult mai competitiv și dinamic.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    },
+    {
+      "question": "Pentru a face față tuturor provocărilor din mediul economic actual, companiile trebuie să-și alinieze business-ul la tendințele din piața în care activează.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    },
+    {
+      "question": "Blitzscaling este o strategie ce are la baza creșterea foarte rapidă a unei companii care sa serveasca o piață mare și, de obicei, globală, cu scopul de a obține monopol.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    },
+    {
+      "question": "Evoluția tehnologică nu poate schimba strategia de dezvoltare a firmei.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "fals"
+    },
+    {
+      "question": "Serviciile de factoring nu reprezintă o soluție eficientă pentru numeroase companii care se confruntă cu optimizarea încasărilor.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "fals"
+    },
+    {
+      "question": "Lipsa lichidității duce automat la faliment.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "fals"
+    },
+    {
+      "question": "Pentru unele firme infrastructura digitală rămâne o provocare, în care implementarea unor sisteme inovative implică timp, resurse și un plan strategic bine pus la punct.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    },
+    {
+      "question": "Mediul economic și evoluția tehnologică au fost factorii care au schimbat necesitățile oamenilor și implicit al afacerilor.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    },
+    {
+      "question": "Organizaţia pentru Cooperare şi Dezvoltare Economică se prescurteaza OCDE.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    },
+    {
+      "question": "Blitzscaling provine de la cuvantul german “blitzkrieg” care se traduce în “război fulger”.",
+      "options": [
+        "adevarat",
+        "fals"
+      ],
+      "answer": "adevarat"
+    }
+  ]
+}

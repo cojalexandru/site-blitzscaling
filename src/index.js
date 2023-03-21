@@ -4,19 +4,28 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./style.css";
 import Homepage from "./views/homepage";
-import Example from "./views/example";
-import CompaniesData from "./assets/companies.json";
+import About from "./views/about";
+import News from "./views/news";
+import Game from "./views/game";
+import Blitzscaling from "./views/blitzscaling";
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={Homepage} exact path="/" />
-        {CompaniesData.companies.map((data, index) => (
-          <Route path={"/" + data.title} key={index}>
-            <Example company={data.title} img={data.img} />
-          </Route>
-        ))}
+        <Route path="/mediul_de_afaceri_din_romania">
+          <About />
+        </Route>
+        <Route path="/noutati">
+          <News />
+        </Route>
+        <Route path="/joc">
+          <Game />
+        </Route>
+        <Route path="/blitzscaling">
+          <Blitzscaling />
+        </Route>
       </div>
     </Router>
   );
