@@ -8,6 +8,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -350,6 +351,7 @@
     position: relative;
     align-items: center;
     flex-shrink: 0;
+    flex-grow: 1;
     border-color: transparent;
     margin-right: 8px;
     margin-bottom: 8px;
