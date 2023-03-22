@@ -6,6 +6,7 @@ import { Footer } from "../components/Footer";
 
 function News() {
   const [news, setNews] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,10 +24,10 @@ function News() {
         const image =
           item.querySelector("img").getAttribute("data-pagespeed-lazy-src") ||
           "";
-        console.log(image);
         return { title, link, date, image };
       });
       setNews(news);
+      setLoading(false);
     };
     fetchData();
   }, []);
@@ -34,32 +35,36 @@ function News() {
   return (
     <div>
       <Helmet>
-        <title>Blitzscaling - Despre</title>
+        <title>Blitzscaling - Noutati</title>
       </Helmet>
       <Header />
       <div className="news-container">
-        <div className="news-grid">
-          {news.map((item) => (
-            <div className="news-item" key={item.link}>
-              <a
-                className="news-link"
-                href={item.link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="news-image-container">
-                  <img
-                    className="news-image"
-                    src={item.image}
-                    alt={item.title}
-                  />
-                </div>
-                <h3 className="news-heading">{item.title}</h3>
-                <p className="news-date">{item.date}</p>
-              </a>
-            </div>
-          ))}
-        </div>
+        {loading ? (
+          <h2 className="news-loading">Stirile se incarca...</h2>
+        ) : (
+          <div className="news-grid">
+            {news.map((item) => (
+              <div className="news-item" key={item.link}>
+                <a
+                  className="news-link"
+                  href={item.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="news-image-container">
+                    <img
+                      className="news-image"
+                      src={item.image}
+                      alt={item.title}
+                    />
+                  </div>
+                  <h3 className="news-heading">{item.title}</h3>
+                  <p className="news-date">{item.date}</p>
+                </a>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
       <Footer />
     </div>

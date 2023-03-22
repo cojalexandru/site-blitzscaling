@@ -25,6 +25,7 @@
 
 .navbar {
     display: flex;
+    width: 100%;
     position: relative;
     align-items: center;
     border-color: transparent;
@@ -80,14 +81,16 @@
 }
 
 .hamburger-menu {
-    position: relative;
-    opacity: 0;
+    position: absolute;
+    display: none;
+    float: right;
     transition: ease-in-out 300ms;
 }
 
 @media (max-width: 1515px) {
     .hamburger-menu {
-        opacity: 1;
+        display: block;
+        right: 0;
     }
 }
 
@@ -301,6 +304,7 @@
 
 .game-button {
     height: 46px;
+    margin: 2px;
     display: flex;
     padding: 8px 32px;
     position: relative;
@@ -325,8 +329,8 @@
 .quizzes-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: left;
+    column-gap: 16px;
+    justify-content: center;
 }
 
 .quiz {
@@ -343,17 +347,15 @@
 
 .question {
     width: 30vw;
-    max-height: 20vw;
     min-width: 235px;
-    min-height: 190px;
+    min-height: 15vw;
     display: flex;
+    text-align: center;
     padding: 32px;
     position: relative;
     align-items: center;
-    flex-shrink: 0;
-    flex-grow: 1;
+    flex-shrink: 1;
     border-color: transparent;
-    margin-right: 8px;
     margin-bottom: 8px;
     border-radius: 25px;
     flex-direction: column;
@@ -364,9 +366,16 @@
     transition: ease-in-out 300ms;
 }
 
+p:target, li:target, h2:target {
+    color: #007aff;
+}
+
 .question-option {
+    text-align: center;
     background-color: rgba(204, 204, 204, 0.8);
-    width: 24vw;
+    min-width: 20vw;
+    max-width: 24vw;
+    width: auto;
     margin: 4px;
     border-radius: 6px;
     padding: 4px;
@@ -374,18 +383,36 @@
 }
 
 .question-answer {
-    background-color: rgba(0, 255, 0, 0.8);
-    width: 24vw;
+    background-color: rgba(204, 204, 204, 0.8);
+    min-width: 20vw;
+    max-width: 24vw;
+    width: auto;
     margin: 4px;
     border-radius: 6px;
     padding: 4px;
     transition: ease-in-out 300ms;
 }
 
+.right {
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+.wrong {
+    background-color: rgb(239, 61, 0);
+}
+
 .question-explanation {
+    margin-top: 10px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 200ms;
     border-radius: 10px;
+}
+
+.question-explanation:hover {
+    background-color: rgba(21, 115, 227, 0.8);
 }
 
 .question-option:hover {
@@ -413,6 +440,16 @@
     flex-direction: column;
     margin-bottom: 100px;
     align-items: center;
+}
+
+.news-loading {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .news-title {
@@ -581,5 +618,9 @@
 
     .row {
         flex-direction: column;
+    }
+
+    .question-answer, .question-option {
+        max-width: 100%;
     }
 }

@@ -9,7 +9,7 @@ function Game() {
   return (
     <div>
       <Helmet>
-        <title>Blitzscaling - Despre</title>
+        <title>Blitzscaling - Jocuri</title>
       </Helmet>
       <Header />
       <div className="quizzes-container">

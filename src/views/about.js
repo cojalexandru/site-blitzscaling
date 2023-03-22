@@ -165,14 +165,17 @@ function About() {
                 numeroase avantaje, dat fiind faptul că astăzi orice afacere are
                 nevoie de o parte digitală. Indiferent de piața pe care activezi
                 este nevoie de adoptarea unor soluții digitale în vederea
-                dezvoltării proceselor de business. Pentru unele afaceri, acest
-                aspect este o mare oportunitate, care poate face diferența între
-                reușită sau eșec. Anul acesta, tot mai multe companii și-au
-                îmbunătățit procesele operaționale apelând la soluții digitale,
-                reușind o optimizare din punct de vedere tehnic și financiar.
-                Însă, pentru unele firme infrastructura digitală rămâne o
-                provocare, în care implementarea unor sisteme inovative implică
-                timp, resurse și un plan strategic bine pus la punct.
+                dezvoltării proceselor de business.
+                <p id="2">
+                  Pentru unele afaceri, acest aspect este o mare oportunitate,
+                  care poate face diferența între reușită sau eșec.
+                </p>
+                Anul acesta, tot mai multe companii și-au îmbunătățit procesele
+                operaționale apelând la soluții digitale, reușind o optimizare
+                din punct de vedere tehnic și financiar. Însă, pentru unele
+                firme infrastructura digitală rămâne o provocare, în care
+                implementarea unor sisteme inovative implică timp, resurse și un
+                plan strategic bine pus la punct.
               </p>
               <h2 className="info-subtitle">
                 Menținerea unui cash-flow stabil – o preocupare constantă a
@@ -181,17 +184,20 @@ function About() {
               <p className="info-description">
                 Una dintre provocările din acest an cu care se confruntă
                 business-urile se referă la menținerea unui nivel optim al
-                cash-flow-ului. În principal, lipsa unui cash-flow stabil a fost
-                provocat de factori cu mare impact asupra proceselor
-                operaționale, precum <li>Diminuarea vânzărilor; </li>
-                <li>
-                  Imposibilitatea de a accesa surse de finanțare viabile pentru
-                  unele business-uri (cele aflate la început de drum);
-                </li>
-                <li>
-                  Lipsa plăților de încasat sau întârzierea plăților de la
-                  clienți;
-                </li>
+                cash-flow-ului.{" "}
+                <p id="3">
+                  În principal, lipsa unui cash-flow stabil a fost provocat de
+                  factori cu mare impact asupra proceselor operaționale, precum{" "}
+                  <li>Diminuarea vânzărilor;</li>
+                  <li>
+                    Imposibilitatea de a accesa surse de finanțare viabile
+                    pentru unele business-uri (cele aflate la început de drum);
+                  </li>
+                  <li>
+                    Lipsa plăților de încasat sau întârzierea plăților de la
+                    clienți;
+                  </li>
+                </p>
                 <br></br>
                 Este esențială realizarea unei analize constante a
                 cash-flow-ului deoarece aceasta permite:
@@ -210,7 +216,7 @@ function About() {
           </div>
           <div className="info-section">
             <div className="info-text">
-              <h2 className="info-subtitle">
+              <h2 className="info-subtitle" id="4">
                 Accesul la finanțare – O problemă des întâlnită în
                 antreprenoriatul românesc
               </h2>
@@ -336,16 +342,20 @@ function About() {
               <p className="info-description">
                 Schimbărilor apărute în mediul de afaceri au determinat firmele
                 să se adapteze contextului nou al economiei pentru atingerea
-                exigențelor pieței. În prezent, companiile se confruntă cu
-                numeroase provocări în ceea ce privește:
-                <br></br>
-                <br></br>
-                <li> dezvoltarea afacerii;</li>
-                <li>concurența;</li>
-                <li>
-                  comportamentul variabil al consumatorilor; menținerea stabilă
-                  a cash-flow-ului.
-                </li>
+                exigențelor pieței.{" "}
+                <p id="5">
+                  {" "}
+                  În prezent, companiile se confruntă cu numeroase provocări în
+                  ceea ce privește:
+                  <br></br>
+                  <br></br>
+                  <li> dezvoltarea afacerii;</li>
+                  <li>concurența;</li>
+                  <li>
+                    comportamentul variabil al consumatorilor; menținerea
+                    stabilă a cash-flow-ului.
+                  </li>
+                </p>
                 <br></br>
                 <br></br>Din perspectiva oportunităților, firmele își pot
                 îmbunătăți procesele operaționale datorită digitalizării. Ca

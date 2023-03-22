@@ -10,7 +10,7 @@ function Homepage() {
   return (
     <div>
       <Helmet>
-        <title>Blitzscaling - Homepage</title>
+        <title>Blitzscaling - Acasa</title>
       </Helmet>
       <Header />
       <div className="homepage-container">
