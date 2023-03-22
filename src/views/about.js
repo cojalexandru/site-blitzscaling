@@ -107,16 +107,12 @@ function About() {
                 </li>
               </p>
             </div>
-            <img
-              className="info-image"
-              src="https://placehold.co/600x400"
-              alt=""
-            />
+            <img className="info-image" src="/assets/cooperation.png" alt="" />
           </div>
           <div className="info-section">
             <img
               className="info-image"
-              src="https://placehold.co/600x400"
+              src="/assets/business_plan.png"
               alt=""
             />
             <div className="info-text">
@@ -269,17 +265,13 @@ function About() {
                 piața pe care activează.
               </p>
             </div>
-            <img
-              className="info-image"
-              src="https://placehold.co/600x400"
-              alt=""
-            />
+            <img className="info-image" src="/assets/finance.png" alt="" />
           </div>
 
           <div className="info-section">
             <img
               className="info-image"
-              src="https://placehold.co/600x400"
+              src="/assets/business_decisions.png"
               alt=""
             />
             <div className="info-text">
@@ -363,11 +355,7 @@ function About() {
                 perspectiva riscurilor financiare.
               </p>
             </div>
-            <img
-              className="info-image"
-              src="https://placehold.co/600x400"
-              alt=""
-            />
+            <img className="info-image" src="/assets/conclusion.png" alt="" />
           </div>
         </div>
       </div>

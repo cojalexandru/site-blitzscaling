@@ -17,7 +17,7 @@ function Blitzscaling() {
         </div>
         <div className="info-content">
           <div className="info-section">
-            <img className="info-image" src="/assets/stocks-1.jpg" alt="" />
+            <img className="info-image" src="/assets/stocks-1.png" alt="" />
             <div className="info-text">
               <h2 className="info-subtitle">Definiție</h2>
               <p className="info-description">

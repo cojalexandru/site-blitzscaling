@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 export const Header = () => {
   const logo = "/assets/blitzscaling-logo.svg";
-  const isMobile = useMediaQuery({ query: `(max-width: 1700px)` });
+  const isMobile = useMediaQuery({ query: `(max-width: 1515px)` });
 
   return (
     <>

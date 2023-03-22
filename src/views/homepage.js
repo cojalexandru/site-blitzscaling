@@ -51,7 +51,7 @@ function Homepage() {
         </div>
         <div
           className="homepage-image"
-          style={{ backgroundImage: `url(/assets/stocks-rising-600h.jpg)` }}
+          style={{ backgroundImage: `url(/assets/stocks-2.png)` }}
         ></div>
       </div>
       <Examples />

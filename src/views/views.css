@@ -84,7 +84,7 @@
     transition: ease-in-out 300ms;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1515px) {
     .hamburger-menu {
         opacity: 1;
     }
@@ -183,7 +183,8 @@
 
 .homepage-image {
     flex: 1;
-    background-size: cover;
+    object-fit: cover;
+    width: 100%;
     background-position: center;
     transition: all 0.3s ease;
 }
