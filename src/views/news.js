@@ -66,7 +66,7 @@ function News() {
           </div>
         )}
       </div>
-      <Footer />
+      <Footer page="News" />
     </div>
   );
 }

@@ -11,6 +11,7 @@ export function Footer(props) {
   const examplePage = page === "Examples";
   const blitzscalingPage = page === "Blitzscaling";
   const maePage = page === "MAE";
+  const newsPage = page === "News";
   return (
     <footer className="footer-container">
       <div className="footer-content">
@@ -74,6 +75,21 @@ export function Footer(props) {
               </div>
             </>
           )}{" "}
+          {newsPage && (
+            <>
+              <div className="row">
+                <a
+                  href="https://www.wall-street.ro/tag/trading.html"
+                  target="_blank"
+                >
+                  Stiri luate de pe, https://www.wall-street.ro/tag/trading.html
+                </a>
+                <a href="https://allorigins.win" target="_blank">
+                  API folosit, https://allorigins.win
+                </a>
+              </div>
+            </>
+          )}
           {blitzscalingPage && (
             <>
               <div className="row">
