@@ -137,13 +137,6 @@ function Quiz(props) {
                   </button>
                 )
               )}
-              <Link
-                target="_blank"
-                to={data.explanationLink}
-                className="question-explanation"
-              >
-                {data.explanation}
-              </Link>
             </div>
           ))}
         </div>
