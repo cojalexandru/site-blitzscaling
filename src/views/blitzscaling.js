@@ -72,7 +72,7 @@ function Blitzscaling() {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer page="Blitzscaling" />
     </div>
   );
 }
