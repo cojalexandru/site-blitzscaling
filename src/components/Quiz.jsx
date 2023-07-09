@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import QuizQuestions from "../assets/questions.json";
 import { Link } from "react-router-dom";
 
@@ -51,6 +51,29 @@ function Quiz(props) {
     else return quizData2[index].answer === option;
   };
 
+  const submitScore = async (quiz_type) => {
+    try {
+      const response = await fetch(
+        "http://188.214.88.131:3000/api/insert_score",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ score, quiz_type }),
+        }
+      );
+
+      if (response.ok) {
+        history.go("/");
+      } else {
+        console.log("Failed to save score");
+      }
+    } catch (error) {
+      console.error("An error occurred:", error);
+    }
+  };
+
   return (
     <div>
       {isTrueFalse ? (
@@ -95,6 +118,17 @@ function Quiz(props) {
                 </Link>
               </div>
             ))}
+            <div className="popup">
+              <div className="popup-content">
+                <button
+                  className="submit-button"
+                  type="submit"
+                  onClick={() => submitScore("questions")}
+                >
+                  Salveaza
+                </button>
+              </div>
+            </div>
           </div>
         ) : (
           <div className="quiz">
@@ -139,6 +173,17 @@ function Quiz(props) {
               )}
             </div>
           ))}
+          <div className="popup">
+            <div className="popup-content">
+              <button
+                className="submit-button"
+                type="submit"
+                onClick={() => submitScore("true_false")}
+              >
+                Salveaza
+              </button>
+            </div>
+          </div>
         </div>
       ) : (
         <div className="quiz">

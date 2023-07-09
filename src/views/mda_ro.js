@@ -4,7 +4,7 @@ import "./views.css";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
-function About() {
+function MDA_Ro() {
   return (
     <div>
       <Helmet>
@@ -369,9 +369,9 @@ function About() {
           </div>
         </div>
       </div>
-      <Footer page="MAE" />
+      <Footer page="mda_ro" />
     </div>
   );
 }
 
-export default About;
+export default MDA_Ro;

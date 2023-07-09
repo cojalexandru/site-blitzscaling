@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 import HamburgerMenu from "./HamburgerMenu";
-
 import { useMediaQuery } from "react-responsive";
+import SearchBar from "./SearchBar";
 
 export const Header = () => {
   const logo = "/assets/blitzscaling-logo.svg";
-  const isMobile = useMediaQuery({ query: `(max-width: 1515px)` });
+  const isMobile = useMediaQuery({ query: `(max-width: 1400px)` });
 
   return (
     <>
@@ -30,12 +30,7 @@ export const Header = () => {
                     target="_parent"
                     className="link"
                   >
-                    Mediul de afaceri din Romania
-                  </Link>
-                </div>
-                <div className="nav-link">
-                  <Link to="/#exemple" target="_parent" className="link">
-                    Exemple de afaceri
+                    Mediul de Afaceri
                   </Link>
                 </div>
                 <div className="nav-link">
@@ -47,13 +42,16 @@ export const Header = () => {
             )}
           </div>
           {!isMobile && (
-            <Link to="/joc" target="_parent" className="nav-buttons">
-              <img
-                alt="gamepad"
-                src="/assets/gamepad.svg"
-                className="game-button"
-              />
-            </Link>
+            <div className="nav-buttons">
+              <SearchBar></SearchBar>
+              <Link to="/joc" target="_parent" className="nav-button">
+                <img
+                  alt="gamepad"
+                  src="/assets/gamepad.svg"
+                  className="game-button"
+                />
+              </Link>
+            </div>
           )}
         </div>
       </div>

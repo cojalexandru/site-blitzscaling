@@ -54,8 +54,9 @@ function Homepage() {
           style={{ backgroundImage: `url(/assets/stocks-2.png)` }}
         ></div>
       </div>
+      <br></br>
       <Examples />
-      <Footer page="Examples" />
+      <Footer />
     </div>
   );
 }

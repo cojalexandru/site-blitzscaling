@@ -40,7 +40,7 @@ function News() {
       <Header />
       <div className="news-container">
         {loading ? (
-          <h2 className="news-loading">Stirile se incarca...</h2>
+          <h2 className="data-loading" id="news">Stirile se incarca...</h2>
         ) : (
           <div className="news-grid">
             {news.map((item) => (
@@ -66,7 +66,7 @@ function News() {
           </div>
         )}
       </div>
-      <Footer page="News" />
+      <Footer page="noutati" />
     </div>
   );
 }

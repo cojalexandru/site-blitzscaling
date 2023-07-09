@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import SearchBar from "./SearchBar";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,13 +22,12 @@ const HamburgerMenu = () => {
             </Link>
           </li>
           <li>
-            <Link to="/despre" target="_parent" className="link">
-              Mediul de afaceri din Romania
-            </Link>
-          </li>
-          <li>
-            <Link to="/#exemple" target="_parent" className="link">
-              Exemple de afaceri
+            <Link
+              to="/mediul_de_afaceri_din_romania"
+              target="_parent"
+              className="link"
+            >
+              Mediul de Afaceri
             </Link>
           </li>
           <li>
@@ -42,6 +42,7 @@ const HamburgerMenu = () => {
               className="game-button"
             />
           </Link>
+          <SearchBar></SearchBar>
         </ul>
       </div>
     </div>
