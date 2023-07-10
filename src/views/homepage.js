@@ -10,18 +10,18 @@ function Homepage() {
   return (
     <div>
       <Helmet>
-        <title>Blitzscaling - Acasa</title>
+        <title>Blitzscaling - Acasă</title>
       </Helmet>
       <Header />
       <div className="homepage-container">
         <div className="homepage-content">
           <h2 className="homepage-title">
-            Mediul de afaceri din Romania si Blitzscaling
+            Mediul de afaceri din România și Blitzscaling
           </h2>
           <p className="homepage-text">
             Consolidarea mediului de afaceri, asigurarea stabilității și
             predictibilității acestuia, precum și creșterea competitivității
-            prin inovație reprezintă liniile directoare principale ale politicii
+            prin inovație reprezintă scopurile principale ale politicii
             economice a Guvernului României. <br></br>
             Se urmărește ca modalitatea principală de creștere a
             competitivității să fie majorarea productivității bazată pe
@@ -42,7 +42,7 @@ function Homepage() {
               target=""
               className="homepage-button"
             >
-              Mediul de Afaceri din Romania
+              Mediul de Afaceri din România
             </Link>
             <Link to="/blitzscaling" target="" className="homepage-button">
               Blitzscaling

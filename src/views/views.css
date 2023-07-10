@@ -918,16 +918,16 @@ h2:target {
   font-size: 12px;
 }
 
-.submit-button {
-  min-width: 100px;
-  min-height: 30px;
+.save-button {
+  min-width: 150px;
+  min-height: 50px;
   border-radius: 10px;
   color: #333;
   transition: ease-in-out 300ms;
   background-color: rgb(70, 200, 70);
 }
 
-.submit-button:hover {
+.save-button:hover {
   cursor: pointer;
   color: white;
 }

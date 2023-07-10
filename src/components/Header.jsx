@@ -35,7 +35,7 @@ export const Header = () => {
                 </div>
                 <div className="nav-link">
                   <Link to="/noutati" target="_parent" className="link">
-                    Noutati
+                    Noutăți
                   </Link>
                 </div>
               </div>

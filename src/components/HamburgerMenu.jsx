@@ -32,7 +32,7 @@ const HamburgerMenu = () => {
           </li>
           <li>
             <Link to="/noutati" target="_parent" className="link">
-              Noutati
+              Noutăți
             </Link>
           </li>
           <Link to="/joc" target="_parent" className="nav-buttons">

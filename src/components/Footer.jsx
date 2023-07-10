@@ -329,9 +329,9 @@ export function Footer(props) {
       <footer className="footer-container">
         <div className="footer-content">
           <div>
-            <p>Profesor indrumator:</p>
+            <p>Profesor îndrumător:</p>
             <p>Tiron Elena Loredana - profesor economie</p>
-            <p>Ciurariu Cristina - profesor informatica</p>
+            <p>Ciurariu Cristina - profesor informatică</p>
           </div>
           <div>
             <div className="copyright">
@@ -344,7 +344,7 @@ export function Footer(props) {
               <p>©Cojocaru Alexandru</p>
             </div>
             <a href="http://lspvs.ro" target="blank">
-              <p className="highschool">Liceul "Stefan Procopiu"</p>{" "}
+              <p className="highschool">Liceul "Ștefan Procopiu"</p>{" "}
             </a>
           </div>
         </div>

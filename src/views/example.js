@@ -68,7 +68,7 @@ function LiveStockPrice({ symbol }) {
           )}
         </div>
       ) : (
-        <p>Loading stock price...</p>
+        <p className="data-loading">Se încarcă prețul actual al acțiunilor...</p>
       )}
     </div>
   );
@@ -92,7 +92,7 @@ function StockChart({ symbol }) {
     fetchStockData(formattedStartDate, formattedEndDate);
   }, []);
 
-  const fetchStockData = async (startDate, endDate) => {
+  const fetchStockData = async () => {
     try {
       const response = await fetch(
         `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${symbol}&outputsize=full&apikey=94ZVBMG7SGZARSN0`
@@ -171,7 +171,7 @@ function StockChart({ symbol }) {
               />
             </div>
             <div>
-              <label htmlFor="end-date">Pana la:</label>
+              <label htmlFor="end-date">Până la:</label>
               <input
                 type="date"
                 id="end-date"
@@ -186,7 +186,7 @@ function StockChart({ symbol }) {
           </div>
         </div>
       ) : (
-        <h2 className="data-loading">Datele despre actiuni se incarca...</h2>
+        <h2 className="data-loading">Datele despre acțiuni se încarcă...</h2>
       )}
     </div>
   );

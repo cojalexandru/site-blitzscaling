@@ -24,7 +24,7 @@ function Blitzscaling() {
                 O mentalitate globală de creștere
               </h2>
               <p className="info-description">
-                Blitzscaling este o strategie care permite start-up-urilor să
+                Blitzscaling (de la cuvantul german “blitzkrieg” care se traduce în “război fulger”) este o strategie care permite start-up-urilor să
                 crească rapid și eficient pentru a servi o bază mare de clienți.
                 Este o mentalitate de creștere care se concentrează pe viteză în
                 loc de eficiență.
@@ -207,7 +207,7 @@ function Blitzscaling() {
                 <br /> <br />
                 De obicei companiile ce au parte de cel mai mare succes cu
                 aceasta strategie sunt cele cu idei ce țin de viitor și sunt de
-                folos, ex:“Amazon”,“Google”,“Facebook”, “LinkedIn“, “AirBnB”,
+                folos, ex:“Amazon”, “Google”, “Facebook”, “UiPath“, “LinkedIn“, “AirBnB”,
                 “Uber”.Toate aceste idei au pornit de le nevoi primare ale
                 oamenilor, produse, socializare, informație, locuri de munca,
                 chirie, transport.

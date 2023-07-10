@@ -27,7 +27,7 @@ const PieChart = (props) => {
   }, []);
 
   if (!data) {
-    return <div>Loading data...</div>;
+    return <div className="data-loading">Scorurile se încarcă...</div>;
   }
 
   const chartData = {

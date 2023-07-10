@@ -118,17 +118,13 @@ function Quiz(props) {
                 </Link>
               </div>
             ))}
-            <div className="popup">
-              <div className="popup-content">
-                <button
-                  className="submit-button"
-                  type="submit"
-                  onClick={() => submitScore("questions")}
-                >
-                  Salveaza
-                </button>
-              </div>
-            </div>
+            <button
+              className="save-button"
+              type="submit"
+              onClick={() => submitScore("questions")}
+            >
+              Salvează
+            </button>
           </div>
         ) : (
           <div className="quiz">
@@ -173,17 +169,13 @@ function Quiz(props) {
               )}
             </div>
           ))}
-          <div className="popup">
-            <div className="popup-content">
-              <button
-                className="submit-button"
-                type="submit"
-                onClick={() => submitScore("true_false")}
-              >
-                Salveaza
-              </button>
-            </div>
-          </div>
+            <button
+              className="save-button"
+              type="submit"
+              onClick={() => submitScore("questions")}
+            >
+              Salvează
+            </button>
         </div>
       ) : (
         <div className="quiz">

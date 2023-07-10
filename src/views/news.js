@@ -35,12 +35,12 @@ function News() {
   return (
     <div>
       <Helmet>
-        <title>Blitzscaling - Noutati</title>
+        <title>Blitzscaling - Noutăți</title>
       </Helmet>
       <Header />
       <div className="news-container">
         {loading ? (
-          <h2 className="data-loading" id="news">Stirile se incarca...</h2>
+          <h2 className="data-loading" id="news">Știrile se încarcă...</h2>
         ) : (
           <div className="news-grid">
             {news.map((item) => (
