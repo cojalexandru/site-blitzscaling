@@ -81,6 +81,14 @@ export function Footer(props) {
           </a>
           <a
             className="bibliography-link"
+            href="https://ro.economy-pedia.com/11031923-business-environment"
+            target="_blank"
+          >
+            “Mediul de afaceri - Ce este, definiție și concept” Economy-Wiki.com,
+            https://ro.economy-pedia.com/11031923-business-environment.
+          </a>
+          <a
+            className="bibliography-link"
             href="https://www.wall-street.ro/tag/trading.html"
             target="_blank"
           >
@@ -301,6 +309,14 @@ export function Footer(props) {
           >
             “Diplomația economică” Ministerul Afacerilor Externe,
             https://www.mae.ro/node/1418/1.
+          </a>
+          <a
+            className="bibliography-link"
+            href="https://ro.economy-pedia.com/11031923-business-environment"
+            target="_blank"
+          >
+            “Mediul de afaceri - Ce este, definiție și concept” Economy-Wiki.com,
+            https://ro.economy-pedia.com/11031923-business-environment.
           </a>
         </div>
       );

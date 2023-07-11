@@ -81,6 +81,108 @@ function MDA_Ro() {
           </div>
           <div className="info-section">
             <div className="info-text">
+              <h2 className="info-subtitle">Mediul de afaceri</h2>
+              <p className="info-description">
+                Mediul de afaceri este ansamblul factorilor care influențează
+                activitatea unei companii. Ele pot avea o origine internă sau
+                externă și sunt de altă natură. Mediul de afaceri cuprinde apoi
+                toate variabilele care pot afecta direct sau indirect
+                organizația și cu privire la care trebuie să funcționeze. Acest
+                mediu este, de asemenea, caracterizat prin faptul că este
+                modificabil în timp și adesea dificil de prezis. Poate fi, de
+                exemplu, ca înainte de intrarea în conducerea unui nou guvern,
+                cadrul legal pe care lucrează compania să varieze.
+              </p>
+            </div>
+            <img className="info-image" src="/assets/marketing.svg" alt="" />
+          </div>
+          <div className="info-section">
+            <img className="info-image" src="/assets/categories.svg" alt="" />
+            <div className="info-text">
+              <h2 className="info-subtitle">Tipuri de mediu de afaceri</h2>
+              <p className="info-description">
+                Există în principal două tipuri de mediu de afaceri:
+                <ul>
+                  <li>
+                    Mediul general sau macroeconomic: Este unul care grupează
+                    factorii externi care au impact asupra companiei și care,
+                    prin urmare, sunt dincolo de controlul acesteia.
+                    Principalele sunt:
+                  </li>
+                  <ul>
+                    <li>
+                      Factori economici: Ne referim la inflație, ocuparea forței
+                      de muncă, produsul intern brut (PIB), printre alți
+                      indicatori.
+                    </li>
+                    <li>
+                      Factori socioculturali: idiosincrasia populației,
+                      obiceiurile și tot ceea ce cuprinde cultura lor.
+                    </li>
+                    <li>
+                      Factori legali: Se referă la cadrul legal sub care sunt
+                      guvernați acționarii companiei. Aceasta determină, de
+                      exemplu, ce beneficii ar trebui să primească angajații
+                      companiei, cum ar fi perioada de vacanță.
+                    </li>
+                    <li>
+                      Factori tehnologici: Acestea sunt inovațiile dezvoltate pe
+                      piață și care au o influență asupra activității firmei,
+                      cum ar fi Internetul.
+                    </li>
+                    <li>
+                      Factori de mediu: este ecosistemul în care își desfășoară
+                      activitatea firma și care poate suferi contaminarea din
+                      cauza activității companiei.
+                    </li>
+                  </ul>
+                </ul>
+                <br></br>
+                <ul>
+                  <li>
+                    Mediu specific sau micromediul: Aceștia sunt factorii cei
+                    mai apropiați de companie și asupra cărora aceasta poate
+                    avea un anumit control. Urmează următoarele:
+                  </li>
+                  <ul>
+                    <li>
+                      Clienți: Ei sunt cei care cumpără produsele dezvoltate de
+                      firmă.
+                    </li>
+                    <li>
+                      Furnizori: Sunt cei care furnizează companiei
+                      contribuțiile necesare procesului său de producție.
+                    </li>
+                    <li>
+                      Concurenți: sunt acele firme care oferă aceleași produse
+                      ca și compania sau un substitut pentru acestea.
+                    </li>
+                    <li>
+                      Entități financiare: sunt instituții la care firma se
+                      poate adresa pentru finanțare.
+                    </li>
+                    <li>
+                      Piața muncii: este capitalul uman disponibil și din care
+                      compania trebuie să își aleagă lucrătorii. În acest sens,
+                      costul forței de muncă este important și calificarea sa
+                      este cea cerută de organizație.
+                    </li>
+                    <li>
+                      Autorități: se referă la Guvern și la autorități, pe care
+                      populația le alege și care sunt însărcinate cu dirijarea
+                      țării, regiunii sau localității.
+                    </li>
+                    <li>
+                      Comunitate: este mediul social în care se desfășoară
+                      activitățile companiei.
+                    </li>
+                  </ul>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div className="info-section">
+            <div className="info-text">
               <h2 className="info-subtitle">
                 Cooperarea cu organizaţii economice internaţionale
               </h2>
@@ -184,10 +286,10 @@ function MDA_Ro() {
               <p className="info-description">
                 Una dintre provocările din acest an cu care se confruntă
                 business-urile se referă la menținerea unui nivel optim al
-                cash-flow-ului.{" "}
+                cash-flow-ului.
                 <p id="3">
                   În principal, lipsa unui cash-flow stabil a fost provocat de
-                  factori cu mare impact asupra proceselor operaționale, precum{" "}
+                  factori cu mare impact asupra proceselor operaționale, precum
                   <li>Diminuarea vânzărilor;</li>
                   <li>
                     Imposibilitatea de a accesa surse de finanțare viabile
@@ -230,7 +332,7 @@ function MDA_Ro() {
                 instituțiile bancare. Cel puțin pentru companiile la început de
                 drum, este foarte greu să obțină o astfel de finanțare. Însă, în
                 prezent, se regăsesc numeroase oportunități de finanțare, cu
-                diverse avantaje pentru întreprinderile mici și mijlocii.{" "}
+                diverse avantaje pentru întreprinderile mici și mijlocii.
                 <br></br>
                 <br></br>O oportunitate în privința finanțării o constă
                 fondurile nerambursabile oferite de instituții europene, dar și
@@ -342,9 +444,8 @@ function MDA_Ro() {
               <p className="info-description">
                 Schimbărilor apărute în mediul de afaceri au determinat firmele
                 să se adapteze contextului nou al economiei pentru atingerea
-                exigențelor pieței.{" "}
+                exigențelor pieței.
                 <p id="5">
-                  {" "}
                   În prezent, companiile se confruntă cu numeroase provocări în
                   ceea ce privește:
                   <br></br>
